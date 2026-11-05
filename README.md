@@ -1,18 +1,1 @@
-# code_3000
-Collection of Assignments for CSE 3000: Contemporary Issues in Computer Science and Engineering
-
-_Note_: Odd-numbered assignments are in HuskyCT, while even-numbered assignments are found in this repo and can be submitted to Gradescope via a Github connection.
-
-## Outline of Assignments
-
-### Module 02: Bot Predictor
-Your goal is to build a machine learning model using given data and a Python template. You'll make changes to the GradientBoostingClassifer in mod02_build_bot_predictor.py and then test your changes in mod02_test_bot_predictor.ipynb. Can you minimize the misclassification rate on the test set?
-
-### Module 04: Model Bias
-You are given a model that was built to predict a mystery variable using zip code, income, and education level. The variable "group" represents a demographic that is prohibited and was NOT used in the model. Your goal is to use the SHAP package to review this model for bias.
-
-### Module 06: Data De-Anonymization
-Your goal is to connect anonymized data back to its source data and check the match rate. To complete this activity, write functions in the "deanonymize" script to (1) link the records in the two datasets and (2) calculate the rate at which you are successful doing so. 
-
-### Module 08: Sustainability in Computing
-You will be given a toy dataset and have the opportunity to explore the potential effects of choosing sustainable energy sources to perform computations. You'll code the energy calculation in "sustainability calculations" script, and then you can review the results of various decisions in the "check calculations" notebook. 
+I think that Reid Black was spot on when asserted that "[AI Companies] lump together ethical and nonethical values" especially in the sense that they care more about an AI doing well over an AI being ethical. I think that AI's origins are completely unethical. AI is built on stolen content and knowledge and is able to gain value from human work and ingenuity in ways that provide itself value, while providing no value to the journalists, scientists, and artists that it was trained off of. AIs are able to speak ethics and assert that stealing is wrong, but that by itself does not make it ethical, especially when taking into consideration the actions behind it. Another good point that Black makes is that companies will throw away AI safeguards, such as having a "human in the loop", for the sake of efficiency. While things like an AI deleting the Amazon production environment due to a lack of oversight is something that is not good, I think a worse example of these cuts for efficiency is the way AI companies handle data centers. The amount of resources (such as land, energy, RAM, and water) that these data centers use far exceeds the actual benefit that they produce, especially to the average person globally. These data centers are especially damning when considering the ways in which technology typically evolves, hardware typically becomes smaller and software typically becomes more efficient, to the point where in less than ten years these data centers, in their current forms, will become obsolete, yet the damages done to the environment and local communities will persist long after. Overall, I think that the values of AI companies are not aligned with the needs of humanity as a whole, and AI companies need to be restricted legally such that they will be forced to innovate in more ethical ways.
